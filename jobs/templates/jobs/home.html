@@ -80,8 +80,12 @@
             <div class="col">
                 <div class="card shadow-sm">
 
-                
-                    <img class="card-img-top" src="{{ job.image.url }}">
+
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <image width="100%" height="100%" href="{{ job.image.url }}" />
+                    </svg>
 
                     <div class="card-body">
                         <p class="card-text">{{ job.summary }} </p>
